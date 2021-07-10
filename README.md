@@ -16,7 +16,7 @@ Don't worry, you can change your answers later by editing `package.json` manuall
 
 ### `npm install`
 
-`npm install <package-name>` is how you install third party npm 'modules' (pieces of code from the npm repository). E.g. `npm install tape` will install the Tape testing library we'll be using soon.
+`npm install <package-name>` is how you install third party npm 'modules' (pieces of code from the npm repository). E.g. `npm install jest` will install the Jest testing library we'll be using soon.
 
 npm will create a `node_modules` folder at the root of your project. This is where any third party modules you install are stored. Don't worry if you see way more files than you expect — npm also puts all the dependencies of the modules you install in here (and their dependencies, and their dependencies and ...)
 
